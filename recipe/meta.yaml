@@ -1,5 +1,5 @@
 {% set name = "markdown-code-runner" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name | replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3c495998a437bc7d7a4b1a5ce518bce10cf5ba0fa69c569fee1e32c5238603c4
+  sha256: adbd60b3760cf7f37c1ad07e65ce6b62c92227e9e7e8db8fc1ed889ca30465cc
 
 build:
   noarch: python
