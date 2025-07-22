@@ -22,9 +22,10 @@ requirements:
     - setuptools >=42
     - setuptools-scm >=6.2
     - pip
+    - tomli
+    - wheel
   run:
     - python >={{ python_min }}
-    - typing-extensions
 
 test:
   imports:
