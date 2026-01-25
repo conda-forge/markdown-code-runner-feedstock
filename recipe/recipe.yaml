@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: markdown-code-runner
-  version: "2.4.0"
+  version: "2.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 7d6229c437f0c71e5c0442585663af4bfe4beacddf884a64ea8c09fd5dbc31dd
+  sha256: b36f9314839c0db3ee5e5d644e1b4471454af8f624eb15bd5a5d68dbc6430afe
 
 build:
   number: 0
